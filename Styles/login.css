@@ -10,7 +10,7 @@ body {
 
 h1 {
     color: white;
-    
+    font-size: 72px;  
 }
 
 p {
@@ -59,4 +59,12 @@ h3 {
 .slogan {
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.middle-text {
+    margin-left: 55%;
+}
+
+.row {
+    width: 100%;
 }

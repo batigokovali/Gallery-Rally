@@ -78,6 +78,10 @@ h3 {
 font-size: 48px;
 }
 
+.bi-star-fill {
+    color: #8351e6;
+}
+
 .bi-suit-heart-fill {
     color: #3bd16f;
 }
@@ -134,66 +138,18 @@ a {
     font-size: 36px;
 }
 
-.description{
-    color: white;
-    border: solid 5px white;
-    border-radius: 15px;
+div div i {
+    color: white
 }
 
-.gallery-image {
-    height: 180px;
-    border-radius: 15px;
+div i {
+    font-size: 24px;
 }
 
-.gallery-name {
-    font-size: 18px;
+.sell-art {
+    color:#ed8d0e;
 }
 
-.other-info {
-    font-size: 13px;
-}
-
-.heart {
-    color: white;
-    font-size: 40px;
-}
-
-.heart:hover {
-    color:#3bd16f;
-}
-
-.stars {
+.collabration {
     color:#8351e6;
-}
-
-.rating {
-    color: white;
-    font-size: 18px;
-}
-
-.rating i:hover {
-    color:#8351e6
-}
-
-.go-visit {
-    background-color: #8351e6;
-    border: none;
-}
-
-.meet-me {
-    background-color: #ed8d0e;
-    border:none;
-}
-
-.buy-art {
-    background-color: #3bd16f;
-    border: none;
-}
-
-.gallery-content{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: red;
-    border: none;
 }

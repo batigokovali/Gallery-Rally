@@ -33,43 +33,56 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
     <link rel="shortcut icon" href="#" />
-    <link rel="stylesheet" href="../Styles/private-profile-page-2.css" />
-    <title>Login to Gallerally</title>
+    <link rel="stylesheet" href="../Styles/gallery-hunting.css" />
+    <title>Gallery Hunting</title>
   </head>
   <body>
     <div class="container">
-      <h1 class="Username"><a href="../HTMLS/private-profile-page.html"><i class="bi bi-arrow-up-left mr-3"></i></a></i>Juannito7</h1>
-     
-      <div class="row mx-1">
-        <div class="profile-picture mt-2 col-6 px-0 py-0">
-            <img class="profile-img" src="../Assets/juahnito.png" alt="">
-          </div>
-          <div class="d-flex justify-content-center align-items-center user-icons col-6">
-            <div class="">
-              <i class="bi bi-star-fill mx-2"></i>
-            </div>
-            <i class="bi bi-suit-heart-fill mx-2"></i>
-            <i class="bi bi-trophy-fill mx-2"></i>
-          </div>
-      </div>
-      
+      <h1 class="Username">
+        <a href="../HTMLS/private-profile-page.html"
+          ><i class="bi bi-arrow-up-left mr-3"></i></a
+        >Gallery Hunting
+      </h1>
 
-      <div class="about-user mt-4 py-2 px-3">
-        <p>I’m a Mexican art lover, interested in discovering new galleries around the world and meeting like minded young people. Let's go Gallery Hunting together. Let the hunt begin!</p>
+      <div class="row mt-4 d-flex justify-content-around align-items-center">
+        <div
+          class="mx-3 dots"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapse1"
+          aria-expanded="false"
+          aria-controls="collapse1"
+        ></div>
+
+        <div class="collapse" id="collapse1">
+          <div class="detailed-info">
+            Some placeholder content for the collapse component. This panel is
+            hidden by default but revealed when the user activates the relevant
+            trigger.
+          </div>
+        </div>
+        <i class="bi bi-arrow-right"></i>
+        <div class="mx-3 dots blue-color"></div>
+        <i class="bi bi-arrow-right"></i>
+        <div class="mx-3 dots violet-color"></div>
       </div>
-      <div class="row d-flex justify-content-center mt-4">
-        <a type="button" href="../HTMLS/match-gallery.html" class="btn btn-primary mt-4 match-me">Match Me With the Gallery</a>
+      <div class="row mt-5 d-flex justify-content-end align-items-center mr-4">
+        <i class="bi bi-arrow-down"></i>
       </div>
-      <div class="row d-flex justify-content-center">
-        <a type="button" href="../HTMLS/gallery-hunting.html" class="btn btn-primary mt-4 gallery-hunting">Go Gallery Hunting</a>
+      <div class="row mt-5 d-flex justify-content-around align-items-center">
+        <div class="mx-3 dots-invisible"></div>
+        <i class="bi bi-arrow-left arrow-invisible"></i>
+        <div class="mx-3 dots red-color"></div>
+        <i class="bi bi-arrow-left"></i>
+        <div class="mx-3 dots orange-color"></div>
       </div>
-      
-      <div class="row d-flex justify-content-center">
-        <button type="button" class="btn btn-primary mt-4 meet-me">Meet me at the Gallery</button>
+      <div class="row mt-5 d-flex justify-content-around align-items-center">
+        <i class="bi bi-arrow-down"></i>
       </div>
-      <div class="row d-flex justify-content-center">
-        <button type="button" class="btn btn-primary mt-4 members-only">Members Only</button>
+      <div class="row mt-5 d-flex justify-content-around align-items-center">
+        <div class="mx-3 dots green-color"></div>
       </div>
+      <div class="row d-flex justify-content-center"></div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

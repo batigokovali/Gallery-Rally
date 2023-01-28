@@ -66,6 +66,7 @@ h3 {
     width: 200px;
     height: 200px;
     border: solid 5px white;
+    overflow: hidden;
 }
 
 .about-user {
@@ -75,7 +76,11 @@ h3 {
 .user-icons {
    
     color:white;
-font-size: 48px;
+font-size: 24px;
+}
+
+.bi-star-fill {
+    color: #8351e6;
 }
 
 .bi-suit-heart-fill {
@@ -134,66 +139,51 @@ a {
     font-size: 36px;
 }
 
-.description{
-    color: white;
-    border: solid 5px white;
-    border-radius: 15px;
+div div i {
+    color: white
 }
 
-.gallery-image {
-    height: 180px;
-    border-radius: 15px;
+div i {
+    font-size: 24px;
 }
 
-.gallery-name {
-    font-size: 18px;
+.sell-art {
+    color:#ed8d0e;
+    font-size: 50px;
 }
 
-.other-info {
-    font-size: 13px;
+.sell-art:hover {
+    opacity: 0.7;
 }
 
-.heart {
-    color: white;
-    font-size: 40px;
+.heart-icon {
+    font-size: 50px;
 }
 
-.heart:hover {
-    color:#3bd16f;
+.heart-icon:hover {
+    opacity: 0.7;
 }
 
-.stars {
+.collabration {
     color:#8351e6;
+    font-size: 50px;
 }
 
-.rating {
-    color: white;
-    font-size: 18px;
+.collabration:hover {
+    opacity: 0.7;
 }
 
-.rating i:hover {
-    color:#8351e6
-}
-
-.go-visit {
-    background-color: #8351e6;
-    border: none;
-}
-
-.meet-me {
-    background-color: #ed8d0e;
+.network {
+    background-color: #3bd16f;
     border:none;
 }
 
-.buy-art {
-    background-color: #3bd16f;
-    border: none;
+.data-report {
+    background-color: #8351e6;
+    border:none;
 }
 
-.gallery-content{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: red;
-    border: none;
+.members-only {
+    background-color:#ed8d0e;
+    border:none;
 }

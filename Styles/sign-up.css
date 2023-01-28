@@ -1,5 +1,3 @@
-
-
 body {
     background-color: black;
     
@@ -24,7 +22,7 @@ footer > p {
 }
 
 .container {
-    height: 90vh;
+    height: 75vh;
     
 }
 
@@ -65,8 +63,9 @@ h3 {
     align-items: center;
     background-color: #3bd16f;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 350px;
+    font-size: 48px;
     font-family: 'Unbounded', cursive;
     
 }
@@ -85,7 +84,8 @@ h3 {
     align-items: center;
     background-color: #855dbd;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 350px;
     font-family: 'Unbounded', cursive;
+    font-size: 48px;
 }
