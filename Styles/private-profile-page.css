@@ -116,3 +116,7 @@ div i {
 .plus-minus {
     color:white;
 }
+
+.plus-minus:hover {
+    opacity: 0.7;
+}
