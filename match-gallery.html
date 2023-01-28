@@ -33,36 +33,58 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
     <link rel="shortcut icon" href="#" />
-    <link rel="stylesheet" href="../Styles/private.css" />
+    <link rel="stylesheet" href="../Styles/match-gallery.css" />
     <title>Login to Gallerally</title>
   </head>
   <body>
-    <div
-      class="container mt-5 d-flex flex-column justify-content-center align-items-center"
-    >
-      <button type="button" class="btn btn-primary mt-5 facebook">
-        <i class="bi bi-google mr-2"></i>Login With Google
-      </button>
-      <button type="button" class="btn btn-primary mt-3 facebook">
-        <i class="bi bi-facebook mr-2"></i>Login With Facebook
-      </button>
-      <button type="button" class="btn btn-primary mt-3 apple">
-        <i class="bi bi-apple mr-2"></i>Login With Apple
-      </button>
-      <input type="text" placeholder="Username/E-mail" class="mt-5" />
-      <input
-        type="Password"
-        placeholder="Password"
-        class="mt-3"
-        name=""
-        id=""
-      />
-      <a
-        type="button"
-        href="../HTMLS/private-profile-page.html"
-        class="btn btn-primary mt-3 log-in"
-        >Create Private Account</a
-      >
+    <div class="container d-flex flex-column justify-content-center">
+      <h1 class="Username mb-auto"><a href=""><i class="bi bi-arrow-up-left mr-3"></i></a></i>Preferences</h1>
+      <div class="row d-flex justify-content-around mb-3 mt-auto">
+      <div class="dropdown ">
+        <button class="btn btn-secondary dropdown-toggle filters art" type="button" data-toggle="dropdown" aria-expanded="false">
+          Art
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Classical</a>
+          <a class="dropdown-item" href="#">Multimedial</a>
+          <a class="dropdown-item" href="#">NFTs</a>
+          <a class="dropdown-item" href="#">Photography</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle filters artist" type="button" data-toggle="dropdown" aria-expanded="false">
+          Artist
+        </button>
+        <div class="dropdown-menu">
+          
+          <a class="dropdown-item" href="#">Emerging</a>
+          <a class="dropdown-item" href="#">Established</a>
+        </div>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-around mb-auto">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle filters city" type="button" data-toggle="dropdown" aria-expanded="false">
+          City
+        </button>
+        <div class="dropdown-menu px-2">
+          <input type="text" placeholder="Search for a city...">
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle filters exhibition" type="button" data-toggle="dropdown" aria-expanded="false">
+          Exhibition
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Today</a>
+          <a class="dropdown-item" href="#">This Week</a>
+          <a class="dropdown-item" href="#">This Month</a>
+          <a class="dropdown-item" href="#">This Year</a>
+        </div>
+        
+      </div>
+      <a type="button" href="./show-results.html" class="btn btn-primary mt-5 save">Show Results</a>
+    </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
